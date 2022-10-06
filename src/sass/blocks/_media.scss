@@ -1,0 +1,13 @@
+@media(max-width: 575px){
+    .benefits {
+        &__title {
+            font-size: 20px;
+        }
+        &__icon{
+            width: 100%;
+        }
+        &__icons {
+            flex-direction: column;
+        }
+    }
+}
