@@ -17,7 +17,11 @@ gulp.task('server', function() {
 });
 
 gulp.task('styles', function() {
+<<<<<<< Updated upstream
     return gulp.src("src/sass/**/*.+(scss|sass)")
+=======
+    return gulp.src("src/sass/*.+(scss|sass)")
+>>>>>>> Stashed changes
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(rename({suffix: '.min', prefix: ''}))
         .pipe(autoprefixer())
@@ -27,7 +31,12 @@ gulp.task('styles', function() {
 });
 
 gulp.task('watch', function() {
+<<<<<<< Updated upstream
     gulp.watch("src/sass/**/*.+(scss|sass)", gulp.parallel('styles'));
+=======
+    gulp.watch("src/sass/*.+(scss|sass)", gulp.parallel('styles'));
+    gulp.watch("src/*.html").on('change', browserSync.reload);
+>>>>>>> Stashed changes
 });
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles'));

@@ -2,7 +2,12 @@
   "name": "uber_bootstrap",
   "version": "1.0.0",
   "description": "",
+<<<<<<< Updated upstream
   "main": "gulpfile.js",
+=======
+  "main": "index.js",
+  "type": "module",
+>>>>>>> Stashed changes
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
