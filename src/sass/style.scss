@@ -4,6 +4,7 @@
     font-family: 'Museo Moderno', sans-serif;
 }
 .container {
+    position: relative;
     max-width: 950px;
     margin: 0 auto;
 }
@@ -17,3 +18,4 @@
 @import 'blocks/forms';
 @import 'blocks/carousel';
 @import 'blocks/media';
+@import 'blocks/catalog';
