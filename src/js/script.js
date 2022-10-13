@@ -21,7 +21,7 @@ const slider = tns({
     items: 1,
     slideBy: 'page',
     controls: false,
-    nav: false
+    nav: false,
   });
 
   document.querySelector('.prev').addEventListener('click', function() {
