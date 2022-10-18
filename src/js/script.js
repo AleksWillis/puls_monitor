@@ -5,13 +5,22 @@ $(document).ready(function(){
         prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.svg"></button>', 
         nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
         responsive: [
-            {
-                breakpoint: 992,
-                settings: {
-                    dots: true,
-                    arrows: false
-                }
-            }        
+          {
+            breakpoint: 992,
+            settings: {
+              dots: true,
+              arrows: false,
+            },
+          },
+          {
+            breakpoint: 575,
+            settings: {
+              dots: false,
+              arrows: false,
+              slidesToShow: 1,
+              slidesToScroll: 1
+            },
+          },        
         ]
     });
 
@@ -35,10 +44,10 @@ $(document).ready(function(){
     toggleSlide('.catalog-item__back');
 });
 
-  document.querySelector('.prev').addEventListener('click', function() {
-    slider.goTo('prev');
-  });
-  document.querySelector('.next').addEventListener('click', function() {
-    slider.goTo('next');
-  });
+  // document.querySelector('.prev').addEventListener('click', function() {
+  //   slider.goTo('prev');
+  // });
+  // document.querySelector('.next').addEventListener('click', function() {
+  //   slider.goTo('next');
+  // });
 
