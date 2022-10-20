@@ -16,7 +16,19 @@
         font-weight: 500;
         font-size: 20px;
         text-align: center;
+        font-style: normal;
         color: #FFFFFF;
-
+    }
+    &__phone {
+        font-weight: 700;
+        font-size: 20px;
+        text-decoration: none;
+        color: #FFFFFF;  
+    }
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        width: 210px;
+        margin: 0 122px 0 122px;
     }
 }
