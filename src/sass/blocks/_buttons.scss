@@ -11,6 +11,10 @@
     border-radius: 5px;
     margin-top: 4px;
     cursor: pointer;
+    &:hover {
+        box-shadow: 3px 3px 20px $main-color;
+        border: none;
+    }
     &_main {
         margin-top: 67px;
         width: 300px;
