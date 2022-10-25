@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-        <section class="promo">
+        <section id="up" class="promo">
             <div class="container">
                 <header class="header">
                     <a  href="#" class="header__logo">
@@ -55,9 +55,9 @@
             <div class="container">
                 <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
                 <div class="benefits__wrapper">
-                    <div class="benefits__icons">
-                        <div class="benefits__icon">
-                            <img src="icons/cup.png" alt="">
+                    <div class="benefits__items">
+                        <div class="benefits__item">
+                            <img src="icons/cup.png" alt="" class="benefits__icon">
                             <div class="benefits__subtitle">
                                 Делимся опытом
                             </div>
@@ -65,8 +65,8 @@
                                 Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
                             </div>
                         </div>
-                        <div class="benefits__icon">
-                            <img src="icons/heart.png" alt="">
+                        <div class="benefits__item">
+                            <img src="icons/heart.png" alt="" class="benefits__icon benefits__icon_animated">
                             <div class="benefits__subtitle">
                                 Заботимся о здоровье
                             </div>
@@ -74,8 +74,8 @@
                                 Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
                             </div>
                         </div>
-                        <div class="benefits__icon">
-                            <img src="icons/shoe.png" alt="">
+                        <div class="benefits__item">
+                            <img src="icons/shoe.png" alt="" class="benefits__icon">
                             <div class="benefits__subtitle">
                                 Учим бегать
                             </div>
@@ -534,6 +534,11 @@
                 <div class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
             </div>
         </div>
+        
+        <a href="#up" class="pageup">
+            <img src="icons/up.svg" alt="up">
+        </a>
+        
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script src="js/slick.min.js"></script>

@@ -2,12 +2,12 @@
     min-height: 270px;
     background: #F6F6F6;
     padding: 70px 0 82px 0;
-    &__icons {
+    &__items {
         margin-top: 60px;
         display: flex;
         justify-content: space-between;
     }
-    &__icon {
+    &__item {
         width: 230px;
         text-align: center;
     }
@@ -28,6 +28,14 @@
             font-size: 14px;
             text-decoration-line: underline;
             color: #FF0000;
+        }
+    }
+    &__icon {
+        &_animated {
+            animation:heartbeat 1.5s ease infinite;
+        }
+        &:hover {
+            animation-play-state: paused;
         }
     }
 }
