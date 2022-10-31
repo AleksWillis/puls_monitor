@@ -1,5 +1,4 @@
 .catalog {
-    
     &__tabs {
         margin-top: 70px;
         list-style-type: none;
@@ -47,7 +46,7 @@
     }
     &-item {
         width: 255px;
-        min-height: 442px;
+        max-height: 442px;
         border: 2px solid #e8e8e8;
         padding: 20px;
         overflow: hidden;
@@ -131,8 +130,8 @@
             margin-left: 19px;
             margin-bottom: 0;
             &_active {
-                transform: translateX(-100%);  
-                margin-left: 40px;
+                transform: translateX(-107%);  
+                margin-left: 65px;
                 padding-left: 0;
             }
         }
@@ -160,7 +159,7 @@
             position: absolute;
             bottom: 0px;
             left: 50%;
-            transform: translateX(calc(-50% - 19px));
+            transform: translateX(calc(-70% - 19px));
             display: block;
             color: $main-color;
             font-size: 14px;

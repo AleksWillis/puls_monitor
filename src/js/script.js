@@ -4,18 +4,19 @@ $(document).ready(function(){
         adaptiveHeight: true,
         prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.svg"></button>', 
         nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
+        dots: '<button type="button" class="slick-dots"></button>',
         responsive: [
           {
             breakpoint: 992,
             settings: {
-              dots: false,
+              dots: true,
               arrows: false
             },
           },
           {
             breakpoint: 575,
             settings: {
-              dots: false,
+              dots: true,
               arrows: false,
               slidesToShow: 1,
               slidesToScroll: 1
