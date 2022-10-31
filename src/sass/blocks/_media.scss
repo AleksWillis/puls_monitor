@@ -147,9 +147,6 @@
         }
 
     }
-    // .catalog-item {
-    //     width: 40%;
-    // }
     .review {
         &__item {
             flex-direction: column;
@@ -370,6 +367,9 @@
             right: 0;
             right: 50%;
             transform: translateX(50%);
+        }
+        &_mini {
+            padding-bottom: 15px;
         }
     }
 }
