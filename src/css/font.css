@@ -2,6 +2,7 @@
 
 @font-face {
 	font-family: 'Museo Moderno';
+	font-display: swap;
 	src: url('../fonts/MuseoModerno-500.eot');
 	src: local('../fonts/MuseoModerno-500'),
 		url('../fonts/MuseoModerno-500.eot?#iefix') format('embedded-opentype'),
@@ -13,6 +14,7 @@
 
 @font-face {
 	font-family: 'Museo Moderno';
+	font-display: swap;
 	src: url('../fonts/MuseoModerno-900.eot');
 	src: local('../fonts/MuseoModerno-900'),
 		url('../fonts/MuseoModerno-900.eot?#iefix') format('embedded-opentype'),
@@ -24,6 +26,7 @@
 
 @font-face {
 	font-family: 'Museo Moderno';
+	font-display: swap;
 	src: url('../fonts/MuseoModerno-700.eot');
 	src: local('../fonts/MuseoModerno-700'),
 		url('../fonts/MuseoModerno-700.eot?#iefix') format('embedded-opentype'),
@@ -36,6 +39,7 @@
 
 @font-face {
 	font-family: 'Museo Moderno';
+	font-display: swap;
 	src: url('../fonts/MuseoModerno-300.eot');
 	src: local('../fonts/MuseoModerno-300'),
 		url('../fonts/MuseoModerno-300.eot?#iefix') format('embedded-opentype'),
@@ -47,6 +51,7 @@
 
 @font-face {
 	font-family: 'Museo Moderno';
+	font-display: swap;
 	src: url('../fonts/MuseoModerno-100.eot');
 	src: local('../fonts/MuseoModerno-100'),
 		url('../fonts/MuseoModerno-100.eot?#iefix') format('embedded-opentype'),
