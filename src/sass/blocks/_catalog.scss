@@ -22,8 +22,9 @@
         margin: 0 5px;
         cursor: pointer;
         transition: 0.5s all;
+        
         &:hover {
-            box-shadow: 3px 3px 20px $main-color;
+            box-shadow: 3px 3px 15px rgb(108, 108, 108);
             border: none;
         }
         div {
@@ -31,12 +32,13 @@
         }
         &_active {
             color: #fff;
-            background-color: $main-color;
+            background-color: rgb(158, 158, 158);
             border: none;
         }
     }
     &__content {
         margin-top: 60px;
+        margin-bottom: 60px;
         display: none;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -80,6 +82,7 @@
             text-align: center;
             text-decoration-line: underline;
             color: $main-color;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
             &:hover {
                 color: $main-color
             }
@@ -166,6 +169,7 @@
             font-weight: 500;
             text-decoration: underline;
             text-transform: uppercase;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
             &:hover {
                 color: $main-color;
             }
